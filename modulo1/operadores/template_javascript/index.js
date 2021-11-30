@@ -33,3 +33,11 @@ console.log(soma);
 
 // Exercicio 3:
 // Para se resolver use Number()
+
+// Exercicios de codigo:
+// Exercicio 1:
+const age = prompt("Digite sua idade:");
+const friendAge = prompt("Digete a idade de seu melhor amigue:");
+
+console.log("Sua idade é maior do que a do seu melhor amigo?", age > friendAge);
+console.log(age - friendAge);

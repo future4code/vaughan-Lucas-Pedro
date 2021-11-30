@@ -41,3 +41,10 @@ const friendAge = prompt("Digete a idade de seu melhor amigue:");
 
 console.log("Sua idade é maior do que a do seu melhor amigo?", age > friendAge);
 console.log(age - friendAge);
+
+// Exercicio 2:
+const number = prompt("Digite um numero par:");
+console.log(number % 2);
+
+// O resto sempre sera 0
+// O resto sera maior do que 0

@@ -101,3 +101,26 @@ const discountPercentage = 15;
 const result = energyUsage * kwhPrice;
 const discount = (discountPercentage / 100) * result;
 const discountedResult = result - discount;
+
+// 3:
+const lbsToKg = 20 * 0.45359237;
+console.log(`20lb equivalem a ${lbsToKg}kg`);
+
+const ozToKg = 5 * 0.02834952;
+console.log(`5oz equivalem a ${ozToKg}kg`);
+
+const miToM = 100 / 0.00062137;
+console.log(`100mi equivalem a ${miToM}M`);
+
+const ftToM = 50 / 3.2808;
+console.log(`50ft equivalem a ${ftToM}M`);
+
+const galToL = 103.56 / 0.264172;
+console.log(`103.56gal equivalem a ${galToL}L`);
+
+const xicToL = 450 / 0.24;
+console.log(`450xic equivalem a ${xicToL}L`);
+
+const inputFt = prompt("Digite um valor em ft e retornarei em M:");
+const result = inputFt / 3.2808;
+console.log(`50ft equivalem a ${result}M`);

@@ -36,21 +36,21 @@ console.log(soma);
 
 // Exercicios de codigo:
 // Exercicio 1:
-const age = prompt("Digite sua idade:");
-const friendAge = prompt("Digete a idade de seu melhor amigue:");
+const age = Number(prompt("Digite sua idade:"));
+const friendAge = Number(prompt("Digete a idade de seu melhor amigue:"));
 
 console.log("Sua idade é maior do que a do seu melhor amigo?", age > friendAge);
 console.log(age - friendAge);
 
 // Exercicio 2:
-const number = prompt("Digite um numero par:");
+const number = Number(prompt("Digite um numero par:"));
 console.log(number % 2);
 
 // O resto sempre sera 0
 // O resto sera maior do que 0
 
 // Exercicio 3:
-const age = prompt("Digite sua idade:");
+const age = Number(prompt("Digite sua idade:"));
 const months = age * 12;
 const days = months * 4 * 7;
 const hours = days * 24;
@@ -60,8 +60,8 @@ console.log("Idade em dias:", days);
 console.log("Idade em horas:", hours);
 
 // Exercicio 4:
-const firstNumber = prompt("Digite um numero:");
-const secondNumber = prompt("Digite outro numero:");
+const firstNumber = Number(prompt("Digite um numero:"));
+const secondNumber = Number(prompt("Digite outro numero:"));
 
 console.log(
   "O primeiro numero é maior que segundo?",
@@ -121,6 +121,6 @@ console.log(`103.56gal equivalem a ${galToL}L`);
 const xicToL = 450 / 0.24;
 console.log(`450xic equivalem a ${xicToL}L`);
 
-const inputFt = prompt("Digite um valor em ft e retornarei em M:");
+const inputFt = Number(prompt("Digite um valor em ft e retornarei em M:"));
 const result = inputFt / 3.2808;
 console.log(`50ft equivalem a ${result}M`);

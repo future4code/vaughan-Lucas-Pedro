@@ -79,3 +79,16 @@ console.log(
   "O segundo numero é divisível pelo primeiro?",
   secondNumber % firstNumber === 0
 );
+
+// Desafio:
+// 1:
+let kelvin = (77 - 32) * (5 / 9) + 273.15;
+console.log(`${kelvin}K`);
+
+let fahrenheit = 80 * (9 / 5) + 32;
+console.log(`${fahrenheit}°F`);
+
+fahrenheit = 30 * (9 / 5) + 32;
+kelvin = (fahrenheit - 32) * (5 / 9) + 273.15;
+
+console.log(`${fahrenheit}°F e ${kelvin}K`);

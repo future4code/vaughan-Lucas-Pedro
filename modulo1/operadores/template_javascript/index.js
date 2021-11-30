@@ -92,3 +92,12 @@ fahrenheit = 30 * (9 / 5) + 32;
 kelvin = (fahrenheit - 32) * (5 / 9) + 273.15;
 
 console.log(`${fahrenheit}°F e ${kelvin}K`);
+
+// 2:
+const kwhPrice = 0.05;
+const energyUsage = 280;
+const discountPercentage = 15;
+
+const result = energyUsage * kwhPrice;
+const discount = (discountPercentage / 100) * result;
+const discountedResult = result - discount;

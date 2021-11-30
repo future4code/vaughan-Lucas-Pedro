@@ -30,4 +30,6 @@ const soma = primeiroNumero + segundoNumero;
 console.log(soma);
 
 // Sera impresso o primeiro numero em forma de string concatenado ao segundo
+
+// Exercicio 3:
 // Para se resolver use Number()

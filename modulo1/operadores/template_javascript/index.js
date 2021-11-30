@@ -59,3 +59,23 @@ console.log("Idade em meses:", months);
 console.log("Idade em dias:", days);
 console.log("Idade em horas:", hours);
 
+// Exercicio 4:
+const firstNumber = prompt("Digite um numero:");
+const secondNumber = prompt("Digite outro numero:");
+
+console.log(
+  "O primeiro numero é maior que segundo?",
+  firstNumber > secondNumber
+);
+console.log(
+  "O primeiro numero é igual ao segundo?",
+  firstNumber === secondNumber
+);
+console.log(
+  "O primeiro numero é divisível pelo segundo?",
+  firstNumber % secondNumber === 0
+);
+console.log(
+  "O segundo numero é divisível pelo primeiro?",
+  secondNumber % firstNumber === 0
+);

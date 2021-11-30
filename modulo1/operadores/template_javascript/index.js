@@ -48,3 +48,14 @@ console.log(number % 2);
 
 // O resto sempre sera 0
 // O resto sera maior do que 0
+
+// Exercicio 3:
+const age = prompt("Digite sua idade:");
+const months = age * 12;
+const days = months * 4 * 7;
+const hours = days * 24;
+
+console.log("Idade em meses:", months);
+console.log("Idade em dias:", days);
+console.log("Idade em horas:", hours);
+

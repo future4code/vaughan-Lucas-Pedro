@@ -24,3 +24,9 @@ console.log('f. ', valor)
 // d. 3
 // e. [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 // f. 9
+
+//2:
+const frase = prompt("Digite uma frase")
+
+console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
+// SUBI NUM ONIBUS EM MIRROCOS 27

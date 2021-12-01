@@ -59,3 +59,17 @@ console.log(foodArray[4]);
 
 const userFood = prompt("Qual a sua comida favorita?");
 foodArray[1] = userFood;
+
+// 3:
+const listaDeTarefas = [];
+
+listaDeTarefas[0] = prompt("Digite uma tarefa:");
+listaDeTarefas[1] = prompt("Digite outra tarefa:");
+listaDeTarefas[2] = prompt("Digite mais uma tarefa:");
+
+console.log(listaDeTarefas);
+
+const index = prompt("Digite um indice de uma tarefa para remover:");
+listaDeTarefas.splice(index, 1);
+
+console.log(listaDeTarefas);

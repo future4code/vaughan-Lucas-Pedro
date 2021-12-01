@@ -40,3 +40,22 @@ console.log(
   `O e-mail ${userEmail} foi cadastrado com sucesso. Seja bem-vinda(o), ${userName}!`
 );
 
+//2:
+const foodArray = [
+  "pizza",
+  "hamburguer",
+  "sandwish",
+  "french fries",
+  "brigadeiro",
+];
+
+console.log(foodArray);
+console.log(`Essas são as minhas comidas preferidas:`);
+console.log(foodArray[0]); // poderia ser feito com um loop
+console.log(foodArray[1]); // mas ainda n aprendemos ent nao vou usar
+console.log(foodArray[2]);
+console.log(foodArray[3]);
+console.log(foodArray[4]);
+
+const userFood = prompt("Qual a sua comida favorita?");
+foodArray[1] = userFood;

@@ -73,3 +73,14 @@ const index = prompt("Digite um indice de uma tarefa para remover:");
 listaDeTarefas.splice(index, 1);
 
 console.log(listaDeTarefas);
+
+// Desafios
+// 1:
+const arrayToSplit = "Essa e uma frase que sera dividida em array!"
+arrayToSplit.split(" ");
+
+// 2:
+const fruits = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+const pineappleIndex = fruits.indexOf("Abacaxi");
+
+console.log(pineappleIndex, fruits.length);

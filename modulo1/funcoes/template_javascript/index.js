@@ -34,3 +34,16 @@ const greeter = (name, age, city, occupation) =>
   console.log(
     `Eu sou ${name}, tenho ${age} anos, moro em ${city} e sou ${occupation}.`
   );
+
+// 2:
+const sum = (num1, num2) => num1 + num2;
+console.log(sum(1, 2));
+
+const greaterChecker = (num1, num2) => num1 >= num2;
+
+const evenChecker = (num) => num % 2 === 0;
+
+const sizeCheckerAndUpper = (string) => {
+  console.log(string.toUpperCase);
+  console.log(string.length);
+}

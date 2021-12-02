@@ -66,3 +66,12 @@ const printAnswers = (num1, num2) => {
 };
 
 printAnswers(numberInput1, numberInput2);
+
+// Challanges:
+// 1:
+const arrowPrint = (paramether) => console.log(paramether);
+
+const arrowPrint = (num1, num2) => {
+  sum = num1 + num2;
+  arrowPrint(sum);
+};

@@ -67,7 +67,7 @@ const printAnswers = (num1, num2) => {
 
 printAnswers(numberInput1, numberInput2);
 
-// Challanges:
+// Challenges:
 // 1:
 const arrowPrint = (paramether) => console.log(paramether);
 
@@ -75,3 +75,11 @@ const arrowPrint = (num1, num2) => {
   sum = num1 + num2;
   arrowPrint(sum);
 };
+
+// 2:
+const calcPythagoras = (cat1, cat2) => {
+  squareHyp = cat1 ** 2 + cat2 ** 2;
+  return Math.sqrt(squareHyp);
+};
+
+console.log(calcPythagoras(8, 6));

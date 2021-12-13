@@ -33,12 +33,14 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  const newArr = array.sort().reverse();
+  console.log(newArr);
+  return newArr[0];
 }
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+ 
 }
 
 // EXERCÍCIO 08
@@ -48,12 +50,13 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+  
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+  array.sort().reverse();
+  return [array[1], array[array.length - 2]];
 }
 
 // EXERCÍCIO 11
